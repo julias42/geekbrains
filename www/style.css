@@ -1,3 +1,54 @@
-h1 {
-    background-color: darkgray;
+body {
+    font-family: sans-serif;
+}
+
+.paragraf2 {
+    align: left;
+}
+
+.par {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+}
+
+.zag {
+    font-size: 64px;
+    color: #1f3f68;
+}
+
+.pod {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+}
+
+.pol {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.but {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
 }

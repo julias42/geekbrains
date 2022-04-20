@@ -94,6 +94,7 @@ p {
     align-items: flex-start;
 }
 
+<<<<<<< HEAD
 .new-auto {
     display: flex;
     flex-wrap: wrap;
@@ -108,16 +109,28 @@ p {
 .center_cont {
     border: 2px solid #9000ff;
     padding: 5px;
+=======
+.center_cont{
+    border: 2px solid green;
+>>>>>>> main
 }
 
 
 
+<<<<<<< HEAD
 .cart {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 2px solid green;
     padding: 5px;
+=======
+.con {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid #9d10de;
+>>>>>>> main
 }
 
 .make-your-business {

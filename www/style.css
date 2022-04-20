@@ -94,6 +94,10 @@ p {
     align-items: flex-start;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 .new-auto {
     display: flex;
     flex-wrap: wrap;
@@ -108,16 +112,37 @@ p {
 .center_cont {
     border: 2px solid #9000ff;
     padding: 5px;
+<<<<<<< HEAD
+=======
+=======
+.center_cont{
+    border: 2px solid green;
+>>>>>>> main
+>>>>>>> main
 }
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 .cart {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 2px solid green;
     padding: 5px;
+<<<<<<< HEAD
+=======
+=======
+.con {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid #9d10de;
+>>>>>>> main
+>>>>>>> main
 }
 
 .make-your-business {
@@ -183,7 +208,11 @@ p {
     flex-flow: wrap;
 
     border: 5px solid red;
+<<<<<<< HEAD
     padding: 7px;
+=======
+    padding: 30px;
+>>>>>>> main
 }
 
 .contakt {
@@ -191,7 +220,11 @@ p {
     flex-flow: wrap;
     border: 2px solid green;
     margin-top: 5px;
+<<<<<<< HEAD
     padding-left: 7px;
+=======
+    padding-left: 20px;
+>>>>>>> main
 }
 
 .prav {

@@ -3,20 +3,34 @@
     padding: 0px;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    color: red;
+}
+
+.menu ol {
+    display: flex;
+    color: #9000ff;
+    list-style-type: none;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-body {
-    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 5px;
+    border: 2px solid green;
+    min-width: 300px;
 }
 
 .par {
@@ -80,32 +94,108 @@ p {
     align-items: flex-start;
 }
 
+.new-auto {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 500px;
+
+}
+
 .center_cont {
+    border: 2px solid #9000ff;
+    padding: 5px;
+}
+
+
+
+.cart {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border: 2px solid green;
+    padding: 5px;
 }
 
 .make-your-business {
     box-sizing: border-box;
-    padding: 10px;
+    order: 1;
+    padding: 5px;
+    margin: 5px;
     width: 359px;
-    border: 1px solid #000;
+    border: 3px solid violet;
 
 }
 
 .bring-tech {
     box-sizing: border-box;
-    padding: 10px;
+    order: 2;
+    padding: 5px;
+    margin: 5px;
     width: 359px;
-    border: 1px solid #000;
+    border: 3px solid violet;
 
 }
 
 .build-your {
     box-sizing: border-box;
-    padding: 10px;
+    order: 3;
+    padding: 5px;
+    margin: 5px;
     width: 359px;
-    border: 1px solid #000;
+    border: 3px solid violet;
 
+}
+
+.our-finished {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    border: 5px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.intersted>h3 {
+    width: 340px;
+}
+
+.intersted {
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid violet;
+    max-width: 495px;
+    margin: 5px;
+}
+
+.footer_top {
+    display: flex;
+    flex-flow: wrap;
+    border: 5px solid burlywood;
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: wrap;
+
+    border: 5px solid red;
+    padding: 30px;
+}
+
+.contakt {
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid green;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.prav {
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid gray;
 }

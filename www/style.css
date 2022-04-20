@@ -1,9 +1,22 @@
-body {
-    font-family: sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.paragraf2 {
-    align: left;
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 .par {
@@ -21,6 +34,14 @@ body {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
+}
+
+h1 {
+    width: 510px;
+}
+
+p {
+    width: 425px;
 }
 
 .h3 {
@@ -51,4 +72,40 @@ body {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.forma {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.center_cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.make-your-business {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 359px;
+    border: 1px solid #000;
+
+}
+
+.bring-tech {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 359px;
+    border: 1px solid #000;
+
+}
+
+.build-your {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 359px;
+    border: 1px solid #000;
+
 }

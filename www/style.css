@@ -12,10 +12,6 @@ body {
     margin: 0 auto; 
 }
 
-.menu ul {
-    list-style-type: none;
-} 
-
 .menu {
     border: 2px solid green;
 }
@@ -43,15 +39,7 @@ h1 {
 
 li {
     display: inline-block;
-}
-
-ul{
-    display: inline-block;
-}
-
-p {
-    display: inline;
-    width: 425px;
+    padding: 0px 15px;
 }
 
 .h3 {
@@ -191,10 +179,6 @@ p {
 .contakt {
     border: 2px solid green;
     margin-top: 5px;
-}
-
-.contakt ul{
-    list-style: none;
 }
 
 .prav {

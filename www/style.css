@@ -117,7 +117,6 @@ li {
 
 .make-your-business {
     box-sizing: border-box;
-    order: 1;
     padding: 5px;
     margin: 5px;
     width: 359px;
@@ -127,7 +126,6 @@ li {
 
 .bring-tech {
     box-sizing: border-box;
-    order: 2;
     padding: 5px;
     margin: 5px;
     width: 359px;
@@ -137,7 +135,6 @@ li {
 
 .build-your {
     box-sizing: border-box;
-    order: 3;
     padding: 5px;
     margin: 5px;
     width: 359px;
@@ -184,4 +181,41 @@ li {
 .prav {
     border: 2px solid gray;
     margin-bottom: 5px;
+}
+/*Страница контакты*/
+
+.header{
+    border: 2px solid green;
+    margin-top: 5px;
+}
+
+.zagolovok{
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid darkviolet;
+}
+.form-cont{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+.cont{
+    border: 2px solid blue;
+    width: 350px;
+    height: 500px;
+}
+.forma{
+    border: 2px solid burlywood;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+
+}
+.map{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

@@ -9,10 +9,13 @@ body {
 
 .container {
     max-width: 1140px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border: 2px solid green;
 }
 
@@ -35,11 +38,6 @@ body {
 
 h1 {
     width: 510px;
-}
-
-li {
-    display: inline-block;
-    padding: 0px 15px;
 }
 
 .h3 {
@@ -77,14 +75,15 @@ li {
     align-items: flex-start;
 }
 
-.top{
+.top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: 5px solid red;
     margin-bottom: 10px;
 }
-.top_content{
+
+.top_content {
     overflow: hidden;
     box-sizing: border-box;
     max-width: 950px;
@@ -100,7 +99,7 @@ li {
     margin-top: 5px;
 }
 
-.center_cont{
+.center_cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -182,38 +181,43 @@ li {
     border: 2px solid gray;
     margin-bottom: 5px;
 }
+
 /*Страница контакты*/
 
-.header{
+.header {
     margin-top: 5px;
 }
 
-.zagolovok{
+.zagolovok {
     display: flex;
     flex-flow: wrap;
 }
-.form_cont{
+
+.form_cont {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
 
 }
-.cont{
+
+.cont {
     display: flex;
     flex-flow: wrap;
     width: 350px;
     border: 2px solid green;
 
 }
-.forma{
+
+.forma {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     border: 2px solid green;
 
 }
-.map{
+
+.map {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;

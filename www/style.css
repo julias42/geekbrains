@@ -185,31 +185,31 @@ li {
 /*Страница контакты*/
 
 .header{
-    border: 2px solid green;
     margin-top: 5px;
 }
 
 .zagolovok{
     display: flex;
     flex-flow: wrap;
-    border: 2px solid darkviolet;
 }
-.form-cont{
+.form_cont{
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .cont{
-    border: 2px solid blue;
+    display: flex;
+    flex-flow: wrap;
     width: 350px;
-    height: 500px;
+    border: 2px solid green;
+
 }
 .forma{
-    border: 2px solid burlywood;
+    display: flex;
+    flex-flow: wrap;
     justify-content: center;
-    width: 350px;
-    height: 500px;
+    border: 2px solid green;
 
 }
 .map{

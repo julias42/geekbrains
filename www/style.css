@@ -16,10 +16,7 @@ body {
     list-style-type: none;
 } 
 
-
 .menu {
-    display: flex;
-    justify-content: flex-end;
     border: 2px solid green;
 }
 
@@ -44,7 +41,16 @@ h1 {
     width: 510px;
 }
 
+li {
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+}
+
 p {
+    display: inline;
     width: 425px;
 }
 
@@ -80,23 +86,31 @@ p {
 
 .forma {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
-.new-auto {
+.top{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid blue;
-    padding: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    max-width: 500px;
+    border: 5px solid red;
+    margin-bottom: 10px;
+}
 
+.new-auto {
+    border: 2px solid blue;
+    margin-top: 5px;
+}
+
+.top_content{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid darkviolet;
 }
 
 .center_cont{
-    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid darkviolet;
 }
 
 .cart {
@@ -105,6 +119,7 @@ p {
     flex-wrap: wrap;
     border: 2px solid green;
     padding: 5px;
+    margin-bottom: 5px;
 }
 
 .make-your-business {
@@ -138,12 +153,11 @@ p {
 }
 
 .our-finished {
-    display: flex;
-    flex-flow: wrap column;
-    align-items: center;
+    text-align: center;
     border: 5px solid red;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 25px;
 }
 
 .intersted>h3 {
@@ -180,4 +194,5 @@ p {
 
 .prav {
     border: 2px solid gray;
+    margin-bottom: 5px;
 }

@@ -155,7 +155,14 @@ h1 {
     margin-bottom: 5px;
 }
 
+.img_cart {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
 .make-your-business {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     padding: 32px 44px;
     margin: 5px;
@@ -170,8 +177,10 @@ h1 {
 }
 
 .bring-tech {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 32px 44px;
     margin: 5px;
     height: 480.03px;
     width: 359px;
@@ -183,8 +192,10 @@ h1 {
 }
 
 .build-your {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 32px 44px;
     margin: 5px;
     height: 480;
     width: 359px;

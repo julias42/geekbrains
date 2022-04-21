@@ -13,24 +13,14 @@ body {
 }
 
 .menu ul {
-    display: flex;
     list-style-type: none;
-    color: red;
-}
+} 
 
-.menu ol {
-    display: flex;
-    color: #9000ff;
-    list-style-type: none;
-}
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 5px;
+    justify-content: flex-end;
     border: 2px solid green;
-    min-width: 300px;
 }
 
 .par {
@@ -161,8 +151,6 @@ p {
 }
 
 .intersted {
-    display: flex;
-    flex-flow: wrap;
     border: 2px solid violet;
     max-width: 495px;
     margin: 5px;
@@ -176,24 +164,20 @@ p {
 }
 
 .footer {
-    display: flex;
-    flex-flow: wrap;
     border: 5px solid red;
     padding: 7px;
-    padding: 30px;
+    padding: 7px;
 }
 
 .contakt {
-    display: flex;
-    flex-flow: wrap;
     border: 2px solid green;
     margin-top: 5px;
-    padding-left: 7px;
-    padding-left: 20px;
+}
+
+.contakt ul{
+    list-style: none;
 }
 
 .prav {
-    display: flex;
-    flex-flow: wrap;
     border: 2px solid gray;
 }

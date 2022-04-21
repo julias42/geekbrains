@@ -92,24 +92,30 @@ p {
 .top{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     border: 5px solid red;
     margin-bottom: 10px;
 }
+.top_content{
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 950px;
+    border: 2px solid darkviolet;
 
-.new-auto {
-    border: 2px solid blue;
-    margin-top: 5px;
 }
 
-.top_content{
+.new-auto {
     display: flex;
-    flex-wrap: wrap;
-    border: 2px solid darkviolet;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    border: 2px solid blue;
+    margin-top: 5px;
 }
 
 .center_cont{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     border: 4px solid darkviolet;
 }
 
@@ -118,7 +124,6 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     border: 2px solid green;
-    padding: 5px;
     margin-bottom: 5px;
 }
 

@@ -382,9 +382,10 @@ hr{
 }
 
 .contakt li {
-float: left;
-margin-top: 64px;
-padding-right: 65px;
+    float: left;
+    margin-top: 64px;
+    padding-right: 155px;
+    padding-left: 15px;
 }
 
 
@@ -394,7 +395,7 @@ padding-right: 65px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     text-decoration: none;
- 
+
 }
 
 
@@ -406,7 +407,7 @@ padding-right: 65px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
-    margin: 176px 0px 64px 113px;
+    margin: 176px 0px 64px 127px;
 }
 
 /*Страница контакты*/

@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 
 }
@@ -234,7 +234,6 @@ h1 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 25px;
 }
 
 .par_our{
@@ -261,41 +260,151 @@ h1 {
 }
 
 .our_image{
-
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
 }
 
 .our_image_bottom{
+    position: relative;
+    margin-top: 32px;
 
-    
 }
 
-.intersted>h3 {
+.our_image_bottom_right{
+    position: relative;
+    margin: 32px 0px 0px 32px;
+
+}
+
+.our_text{
+    position: absolute;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 64px;
+    right: 64px;
+}
+
+.our_text_left{
+    position: absolute;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 32px;
+    left: 32px;
+
+}
+
+.our_text_right{
+    position: absolute;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 32px;
+    left:32px;
+}
+
+.intersted h3 {
     width: 340px;
 }
 
 .intersted {
-
+    margin-top: 91px;
+    margin-left: 113px;
     max-width: 495px;
-    margin: 5px;
 }
 
 .footer_top {
+    position: relative;
     display: flex;
     flex-flow: wrap;
     margin-bottom: 5px;
 }
 
+.par_int{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;  
+}
+
+.text_int{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+.lets_but{
+    position: absolute;
+    top: 165px;
+    right: 114px;
+    background: #5A98D0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+}
+
 .footer {
-    padding: 7px;
-    padding: 7px;
+    height: 657px;
+    margin-top: 112px;
+    background: #316099;
+}
+
+hr{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
 }
 
 .contakt {
-    margin-top: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 64px 0px 64px 155px;
 }
 
+.contakt li {
+    
+    display: inline-block;
+
+}
+
+.contakt a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+ 
+}
+
+
 .prav {
-    margin-bottom: 5px;
+    margin: 64px 113px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 /*Страница контакты*/

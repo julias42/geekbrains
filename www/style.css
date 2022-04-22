@@ -374,18 +374,19 @@ hr{
 }
 
 .contakt {
+    margin-left: 150px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin: 64px 0px 64px 155px;
 }
 
 .contakt li {
-    
-    display: inline-block;
-
+float: left;
+margin-top: 64px;
+padding-right: 65px;
 }
+
 
 .contakt a {
     font-size: 16px;
@@ -398,13 +399,14 @@ hr{
 
 
 .prav {
-    margin: 64px 113px;
+    clear: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+    margin: 176px 0px 64px 113px;
 }
 
 /*Страница контакты*/

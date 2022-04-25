@@ -450,15 +450,40 @@ hr {
     }
 
     .center_cont{
+
        
     }
+    .cart{
 
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+        width: 100%;
+        
+
+    }
+/*
+    .make-your-business{
+        margin: 64px 216px 32px 217px;
+
+    }
+
+    .bring-tech {
+        margin: 0px 216px 32px 217px;
+    }
+
+    .build-your{
+        margin: 0px 216px 127px 217px;
+    }
+
+*/
     @media (max-width: 667px){
 
         .top{
             min-height: 376px;
             padding-left: 17px;
             padding-right: 17px;
+            box-sizing: border-box;
         }
 
        .top_content{

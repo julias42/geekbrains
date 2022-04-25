@@ -111,16 +111,14 @@ h1 {
 }
 
 .top {
-    height: 768px;
+    min-height: 768px;
     margin-bottom: 10px;
     background: linear-gradient(0deg,
         #EBF3FB 8.84%,
         rgba(152, 195, 232, 0) 31.12%);
-
 }
 
 .top_content {
-    height: 768px;
     background-image: url(image/ilustration.svg);
     background-repeat: no-repeat;
     background-position: right center;
@@ -364,7 +362,9 @@ h1 {
     background: #316099;
 }
 
-hr{
+hr {
+    position: relative;
+    top: 391px;
     opacity: 0.4;
     border: 1px solid #FFFFFF;
 }
@@ -396,6 +396,7 @@ hr{
 
 
 .prav {
+    position: absolute;
     clear: left;
     font-weight: 400;
     font-size: 16px;
@@ -448,46 +449,47 @@ hr{
     }
 
     .center_cont{
-        flex-direction: column;
+       
     }
 
-    @media (max-width: 731px){
+    @media (max-width: 667px){
 
-        .container{
+        .top{
+            min-height: 376px;
             padding-left: 17px;
             padding-right: 17px;
         }
 
-        .top_content{
-            background-image: none;
-            margin-bottom: 12px;
-        }
+       .top_content{
+        background-image: none;
+    }
 
-        .new-auto{
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-            margin-top: 32px;
-
-        }
-
-        .zag{
-            font-size: 32px;
-            line-height: 38px;
-
-        }
-
-        .top_button {
-            font-size: 12px;
-            line-height: 26px;
-            padding: 0 8px;
-            margin-top: 32px;
-
-        }
-
-        .menu{
-            margin-top: 12px;
-        }
+    .new-auto{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 32px;
 
     }
+
+    .zag{
+        width: 100%;
+        font-size: 32px;
+        line-height: 38px;
+
+    }
+
+    .top_button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+        margin-top: 32px;
+
+    }
+
+    .menu{
+        margin-top: 12px;
+    }
+
+}

@@ -119,6 +119,7 @@ h1 {
 }
 
 .top_content {
+    min-height: 768px;
     background-image: url(image/ilustration.svg);
     background-repeat: no-repeat;
     background-position: right center;
@@ -127,7 +128,7 @@ h1 {
 
 .new-auto {
     margin-top: 115px;
-    width: 504px;
+    max-width: 504px;
     line-height: 74px;
     letter-spacing: 0.04em;
     font-weight: 300;
@@ -461,6 +462,7 @@ hr {
         }
 
        .top_content{
+        min-height: 376px;
         background-image: none;
     }
 

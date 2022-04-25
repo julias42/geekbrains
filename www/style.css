@@ -51,6 +51,7 @@ body {
     line-height: 74px;
     letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
 
 }
 
@@ -119,19 +120,14 @@ h1 {
 }
 
 .top_content {
-    overflow: hidden;
-    box-sizing: border-box;
-    max-width: 1100px;
     height: 768px;
     background-image: url(image/ilustration.svg);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 50%;
 }
 
 .new-auto {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: flex-start;
     margin-top: 115px;
     width: 504px;
     line-height: 74px;
@@ -412,21 +408,13 @@ hr{
 
 /*Страница контакты*/
 
-.header {
-    margin-top: 5px;
-}
-
 .zagolovok {
-    display: flex;
-    flex-flow: wrap;
+    background-image: url(image/contact_us.png);
+    background-repeat: no-repeat;
 }
 
 .form_cont {
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center;
-
 }
 
 .cont {
@@ -436,12 +424,6 @@ hr{
 
 }
 
-.forma {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-
-}
 
 .map {
     display: flex;
@@ -450,3 +432,62 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/*медиа запросы*/
+
+@media (max-width: 1024px){
+
+
+    .top{
+        padding-left:32px;
+        padding-right: 32px;
+    }
+
+    .top_content{
+        background-position: right 350px;
+    }
+
+    .center_cont{
+        flex-direction: column;
+    }
+
+    @media (max-width: 731px){
+
+        .container{
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+
+        .top_content{
+            background-image: none;
+            margin-bottom: 12px;
+        }
+
+        .new-auto{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin-top: 32px;
+
+        }
+
+        .zag{
+            font-size: 32px;
+            line-height: 38px;
+
+        }
+
+        .top_button {
+            font-size: 12px;
+            line-height: 26px;
+            padding: 0 8px;
+            margin-top: 32px;
+
+        }
+
+        .menu{
+            margin-top: 12px;
+        }
+
+    }

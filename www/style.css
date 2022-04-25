@@ -246,11 +246,8 @@ h1 {
 }
 
 .text_our {
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     letter-spacing: 0.05em;
     color: #222222;
     width: 75%;
@@ -323,7 +320,7 @@ h1 {
 }
 
 .intersted h3 {
-    width: 340px;
+    max-width: 340px;
 }
 
 .intersted {
@@ -527,6 +524,10 @@ hr {
         box-sizing: border-box;
     }
 
+    .menu {
+        margin-top: 12px;
+    }
+
     .top_content {
         min-height: 376px;
         background-image: none;
@@ -545,19 +546,28 @@ hr {
         width: 100%;
         font-size: 32px;
         line-height: 38px;
-
     }
+
 
     .top_button {
         font-size: 12px;
         line-height: 26px;
         padding: 0 8px;
         margin-top: 32px;
-
     }
 
-    .menu {
-        margin-top: 12px;
+
+    .what-we-do {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .center_cont {
+        margin-top: 48px;
+    }
+
+    .cart {
+        margin-top: 32px;
     }
 
     .make-your-business {
@@ -571,5 +581,98 @@ hr {
     .build-your {
         width: 100%;
     }
+
+    .our-finished {
+        margin-top: 64px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .our_bottom {
+        margin-top: 17px;
+        flex-direction: column;
+    }
+
+    .our_image_bottom {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .text_our {
+        width: 100%;
+    }
+
+    .our_text {
+        top: 16px;
+        right: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .our_text_left {
+        top: 16px;
+        left: 26px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .our_text_right {
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer {
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-top: 64px;
+    }
+
+    .par_int {
+        font-size: 24px;
+        line-height: 28px;
+
+    }
+
+    .footer_top {
+        justify-content: right;
+    }
+
+    .intersted {
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .par_int {
+        width: 100%;
+    }
+
+    .lets_but {
+        top: 329px;
+        right: 99px;
+    }
+
+
+    .prav {
+        margin: 37px 0px 64px 70px;
+    }
+
+    .contakt {
+        margin-left: 21px;
+        line-height: 15px;
+    }
+
+
+
+
+
+
+
+
+
 
 }

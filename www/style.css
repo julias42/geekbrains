@@ -114,8 +114,8 @@ h1 {
     min-height: 768px;
     margin-bottom: 10px;
     background: linear-gradient(0deg,
-        #EBF3FB 8.84%,
-        rgba(152, 195, 232, 0) 31.12%);
+            #EBF3FB 8.84%,
+            rgba(152, 195, 232, 0) 31.12%);
 }
 
 .top_content {
@@ -164,7 +164,7 @@ h1 {
     margin-bottom: 64px;
 }
 
-.link_cart{
+.link_cart {
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
@@ -173,13 +173,13 @@ h1 {
     text-decoration: none;
 }
 
-.text_cart{
+.text_cart {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
-    margin-bottom: 28px ;
+    margin-bottom: 28px;
 }
 
 .img_cart {
@@ -196,7 +196,8 @@ h1 {
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-    margin-right: 32px;
+
+
 }
 
 .bring-tech {
@@ -208,7 +209,9 @@ h1 {
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
+    margin-left: 32px;
     margin-right: 32px;
+
 
 }
 
@@ -231,7 +234,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.par_our{
+.par_our {
 
     font-weight: 300;
     font-size: 36px;
@@ -242,7 +245,7 @@ h1 {
     margin-bottom: 32px;
 }
 
-.text_our{
+.text_our {
 
     font-weight: 400;
     font-size: 16px;
@@ -254,26 +257,38 @@ h1 {
     margin: 32px auto 64px;
 }
 
-.our_image{
+.our_image {
     position: relative;
     display: flex;
     flex-flow: wrap;
     width: 100%;
 }
 
-.our_image_bottom{
-    position: relative;
+.our_img {
+    width: 100%;
+}
+
+.our_bottom {
+    display: flex;
+    justify-content: space-between;
     margin-top: 32px;
-
 }
 
-.our_image_bottom_right{
+.our_image_bottom {
     position: relative;
-    margin: 32px 0px 0px 32px;
+    flex-grow: 1;
+    margin-right: 32px;
+
 
 }
 
-.our_text{
+.our_image_bottom_right {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.our_text {
     position: absolute;
     font-size: 32px;
     line-height: 46px;
@@ -284,7 +299,7 @@ h1 {
     right: 64px;
 }
 
-.our_text_left{
+.our_text_left {
     position: absolute;
     font-size: 32px;
     line-height: 46px;
@@ -296,7 +311,7 @@ h1 {
 
 }
 
-.our_text_right{
+.our_text_right {
     position: absolute;
     font-size: 32px;
     line-height: 46px;
@@ -304,7 +319,7 @@ h1 {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     top: 32px;
-    left:32px;
+    left: 32px;
 }
 
 .intersted h3 {
@@ -324,15 +339,15 @@ h1 {
     margin-bottom: 5px;
 }
 
-.par_int{
+.par_int {
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;  
+    color: #FFFFFF;
 }
 
-.text_int{
+.text_int {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -342,7 +357,8 @@ h1 {
     margin-top: 32px;
     margin-bottom: 96px;
 }
-.lets_but{
+
+.lets_but {
     position: absolute;
     top: 165px;
     right: 114px;
@@ -437,61 +453,86 @@ hr {
 
 /*медиа запросы*/
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
 
-    .top{
-        padding-left:32px;
+    .top {
+        padding-left: 32px;
         padding-right: 32px;
     }
 
-    .top_content{
+    .top_content {
         background-position: right 350px;
     }
 
-    .center_cont{
-
-       
+    .what-we-do {
+        padding-left: 32px;
+        padding-right: 32px;
     }
-    .cart{
 
+    .cart {
         flex-direction: column;
         align-items: center;
         margin-bottom: 32px;
-        width: 100%;
-        
-
-    }
-/*
-    .make-your-business{
-        margin: 64px 216px 32px 217px;
-
     }
 
     .bring-tech {
-        margin: 0px 216px 32px 217px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
-    .build-your{
-        margin: 0px 216px 127px 217px;
+    .our-finished {
+        margin-top: 127px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
-*/
-    @media (max-width: 667px){
+    .our_text_left {
+        top: 19px;
+        left: 19px;
+    }
 
-        .top{
-            min-height: 376px;
-            padding-left: 17px;
-            padding-right: 17px;
-            box-sizing: border-box;
-        }
+    .our_text_right {
+        top: 20px;
+        left: 20px;
+    }
 
-       .top_content{
+    .lets_but {
+        top: 124px;
+        right: 97px;
+        padding: 5px 36px;
+    }
+
+    .contakt li {
+        float: none;
+        margin-top: 23px;
+    }
+
+
+    .prav {
+        margin: 37px 0px 64px 127px;
+    }
+
+}
+
+
+
+
+@media (max-width: 667px) {
+
+    .top {
+        min-height: 376px;
+        padding-left: 17px;
+        padding-right: 17px;
+        box-sizing: border-box;
+    }
+
+    .top_content {
         min-height: 376px;
         background-image: none;
     }
 
-    .new-auto{
+    .new-auto {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -500,7 +541,7 @@ hr {
 
     }
 
-    .zag{
+    .zag {
         width: 100%;
         font-size: 32px;
         line-height: 38px;
@@ -515,8 +556,20 @@ hr {
 
     }
 
-    .menu{
+    .menu {
         margin-top: 12px;
+    }
+
+    .make-your-business {
+        width: 100%;
+    }
+
+    .bring-tech {
+        width: 100%;
+    }
+
+    .build-your {
+        width: 100%;
     }
 
 }

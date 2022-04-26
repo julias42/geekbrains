@@ -469,6 +469,7 @@ hr {
     box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     max-width: 540px;
+    max-height: 800px;
     padding: 56px;
 }
 
@@ -482,8 +483,11 @@ hr {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 20px 132px;
+    width:480px;
+    height: 72px;
     margin-bottom: 32px;
+    padding: 21px 311px 21px 36px;
+    font-size: 16px;
 
 }
 
@@ -492,7 +496,10 @@ hr {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 5px 89px;
+    width: 480px;
+    height: 144px;
+    padding: 21px 284px 93px 36px;
+    font-size: 16px;
 }
 
 .label_form{
@@ -549,7 +556,12 @@ hr {
 
 }
 
+.ul_cont{
+    padding-left: 15px;
+}
+
 .li_cont{
+    padding-left: 16px;
     margin-top: 16px;
     ont-size: 16px;
     line-height: 26px;
@@ -566,10 +578,20 @@ hr {
     letter-spacing: 0.05em;
     color: #1F3F68;
     list-style-image: url(image/site.svg);
+    padding-left: 16px;
 
 }
 
-.li_cont_site{
+.li_cont_site a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+
+}
+
+.li_cont_site {
     margin-bottom: 16px;
 }
 
@@ -580,6 +602,14 @@ hr {
     letter-spacing: 0.05em;
     color: #1F3F68;
     list-style-image: url(image/mail.svg);
+    padding-left: 16px;
+}
+.li_cont_mail a{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    text-decoration: none;
 }
 
 

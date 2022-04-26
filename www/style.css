@@ -8,6 +8,13 @@ body {
     font-style: normal;
 }
 
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -93,17 +100,6 @@ h1 {
     opacity: 0.4;
 }
 
-.but {
-    background: #5a98d0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-}
 
 .forma {
     display: flex;
@@ -113,9 +109,10 @@ h1 {
 .top {
     min-height: 768px;
     margin-bottom: 10px;
+    flex-grow: 1;
     background: linear-gradient(0deg,
-            #EBF3FB 8.84%,
-            rgba(152, 195, 232, 0) 31.12%);
+        #EBF3FB 8.84%,
+        rgba(152, 195, 232, 0) 31.12%);
 }
 
 .top_content {
@@ -424,20 +421,196 @@ hr {
 /*Страница контакты*/
 
 .zagolovok {
-    background-image: url(image/contact_us.png);
+    background-image: url(image/contact_us.svg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zag_zag{
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.text_zag{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 45%;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .form_cont {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 96px;
+    margin-top: 100px;
 }
 
 .cont {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     width: 350px;
 
 }
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    max-width: 540px;
+    max-height: 800px;
+    padding: 56px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.pol{
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width:480px;
+    height: 72px;
+    margin-bottom: 32px;
+    padding: 21px 311px 21px 36px;
+    font-size: 16px;
+
+}
+
+.pol_area{
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 480px;
+    height: 144px;
+    padding: 21px 284px 93px 36px;
+    font-size: 16px;
+}
+
+.label_form{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.but {
+
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 21px 183px;
+    margin-top: 72px;
+}
+
+.h4_form{
+
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+.par_cont{
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.h4_cont{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-top: 40px;
+
+}
+
+.ul_cont{
+    padding-left: 15px;
+}
+
+.li_cont{
+    padding-left: 16px;
+    margin-top: 16px;
+    ont-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style-image: url(image/phone.svg);
+
+}
+
+.li_cont_site {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style-image: url(image/site.svg);
+    padding-left: 16px;
+
+}
+
+.li_cont_site a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+
+}
+
+.li_cont_site {
+    margin-bottom: 16px;
+}
+
+.li_cont_mail {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style-image: url(image/mail.svg);
+    padding-left: 16px;
+}
+.li_cont_mail a{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    text-decoration: none;
+}
+
 
 
 .map {
@@ -508,6 +681,15 @@ hr {
 
     .prav {
         margin: 37px 0px 64px 127px;
+    }
+    /*Страница контакты*/
+
+    .form_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .forma{
+        margin-top: 64px;
     }
 
 }

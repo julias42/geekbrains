@@ -421,7 +421,7 @@ hr {
 /*Страница контакты*/
 
 .zagolovok {
-    background-image: url(image/contact_us.png);
+    background-image: url(image/contact_us.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -543,7 +543,6 @@ hr {
     letter-spacing: 0.04em;
     color: #1F3F68;
     opacity: 0.6;
-    margin-bottom: 40px;
 }
 .h4_cont{
     font-size: 20px;
@@ -682,6 +681,15 @@ hr {
 
     .prav {
         margin: 37px 0px 64px 127px;
+    }
+    /*Страница контакты*/
+
+    .form_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .forma{
+        margin-top: 64px;
     }
 
 }

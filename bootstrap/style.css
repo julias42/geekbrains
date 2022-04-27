@@ -3,35 +3,3 @@
     padding: 0;
 }
 
-.wrapper {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-
-}
-
-.top {
-    max-width: 850px;
-}
-
-.landing_card {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-
-}
-
-.page_zag {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.landing_par {
-    margin-bottom: 35px;
-}
-
-.forma {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

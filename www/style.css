@@ -376,14 +376,10 @@ h1 {
     left: 32px;
 }
 
-.intersted h3 {
-    max-width: 340px;
-}
-
 .intersted {
     margin-top: 91px;
     margin-left: 113px;
-    max-width: 495px;
+    max-width: 494px;
 }
 
 .footer_top {
@@ -409,7 +405,7 @@ h1 {
     color: #FFFFFF;
     opacity: 0.6;
     margin-top: 32px;
-    margin-bottom: 96px;
+    margin-bottom: 95px;
 }
 
 .lets_but {
@@ -454,6 +450,8 @@ hr {
 }
 
 .contakt {
+    min-height: 145px;
+    margin-top: 25px;
     margin-left: 150px;
     font-size: 16px;
     line-height: 26px;
@@ -463,7 +461,6 @@ hr {
 
 .contakt li {
     float: left;
-    margin-top: 64px;
     padding-right: 155px;
     padding-left: 15px;
 }
@@ -492,15 +489,17 @@ hr {
 }
 
 .prav {
-    position: absolute;
-    clear: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
-    margin: 176px 0px 64px 127px;
+}
+
+.prav_bottom{
+    margin-left: 11%;
+
 }
 
 /*Страница контакты*/
@@ -790,12 +789,23 @@ hr {
     .contakt li {
         float: none;
         margin-top: 23px;
+        padding-right: 0px;
     }
 
-
-    .prav {
-        margin: 37px 0px 64px 127px;
+    .intersted{
+        max-width: 336px;
     }
+
+    .lets_but{
+        top: 45%;
+        left: 68%;
+        padding: 1%;
+        margin: 0 auto;
+    }
+    .prav_bottom{
+        margin-left: 130px;
+    }
+
     /*Страница контакты*/
 
     .top_contact{
@@ -925,9 +935,12 @@ hr {
     }
 
     .footer {
-        padding-left: 17px;
-        padding-right: 17px;
         margin-top: 64px;
+    }
+
+    .footer_top{
+        margin-left: 17px;
+        margin-right: 17px;
     }
 
     .par_int {
@@ -936,15 +949,12 @@ hr {
 
     }
 
-    .footer_top {
-        justify-content: right;
-    }
-
     .intersted {
         text-align: center;
-        margin-left: 0px;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-bottom: 90px;
         width: 100%;
-
     }
 
     .par_int {
@@ -952,17 +962,18 @@ hr {
     }
 
     .lets_but {
-        top: 329px;
-        right: 99px;
+        top: 70%;
+        left: 33%;
+        right: 33%;
+        padding: 1%;
     }
 
-
-    .prav {
-        margin: 37px 0px 64px 70px;
+    .prav_bottom{
+       margin-left: 20%; 
     }
 
     .contakt {
-        margin-left: 21px;
+        margin-left: 35px;
         line-height: 15px;
     }
     /*Контакты*/

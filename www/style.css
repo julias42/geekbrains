@@ -180,7 +180,7 @@ h1 {
     letter-spacing: 0.05em;
     color: #5A98D0;
     text-decoration: none;
-    background: url(image/arrow_link.svg) no-repeat 30% 5px;
+    background: url(image/arrow_link.svg) no-repeat 85px 5px;
     -webkit-transition:all .3s ease-out;
     -moz-transition:all .3s ease-out;
     -ms-transition:all .3s ease-out;
@@ -659,6 +659,7 @@ hr {
 
 .ul_cont{
     padding-left: 15px;
+    list-style-position: inside;
 }
 
 .li_cont{
